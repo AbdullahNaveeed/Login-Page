@@ -27,6 +27,7 @@ Login Form: Enter your username and password in the respective fields.
 Forgot Password: Click the "Forgot Password?" link to reset your credentials.
 Signup Button: If you don’t have an account, click the "Signup" button to create a new one.
 
-![login-page](https://github.com/user-attachments/assets/955ff89e-e5b4-4ea2-b183-22a83cb83649)
+![login-page](https://github.com/user-attachments/assets/ec75d7d2-4a77-496c-a0b7-9139feca7940)
+
 
 
