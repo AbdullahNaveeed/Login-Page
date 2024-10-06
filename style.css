@@ -1,0 +1,142 @@
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  height: 100%;
+  display: flex;
+  background-color: rgb(17, 2, 36);
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+  padding: 20px; /* new */
+}
+.p-white {
+  color: white;
+}
+
+#title {
+  font-size: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+#subtitle {
+  font-size: 1rem;
+  font-weight: lighter;
+  margin-top: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.login-card {
+  background-color: white;
+  height: auto;
+  width: 74%;
+  border: white;
+  max-width: 300px;
+  border-radius: 13px;
+}
+.login-text {
+  color: rgb(17, 2, 36);
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.inputplaceholder {
+  margin-bottom: 10px;
+  border-radius: 16px;
+  
+  padding: 8px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+}
+.forget-password {
+  
+  margin-top: 4px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-right: 40%;
+  color: rgb(17, 2, 36);
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.85rem;
+
+}
+.login-btn ,.signup-btn{
+  font-size: 0.8rem;
+  color: white;
+  padding-inline: 28px;
+  padding-block: 8px;
+  border-radius: 20px;
+  border: none;
+}
+.signup-btn {
+  background-color: rgb(230, 9, 9);
+  margin-left: 6px;
+}
+.login-btn{
+  background-color: rgb(28, 3, 61);
+  margin-right: 10%
+}
+.login-card-inner {
+  padding: 30px;
+}
+.logosidediv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20%;
+}
+@media (max-width:780px) {
+  .main{
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .logosidediv{
+    padding-bottom: 20px;
+    margin-right: 0px;
+  }
+  .login-card {
+    width: 80%;
+     padding-right: 20px;
+  }
+  #title {
+    font-size: 1.6rem; 
+  }
+  
+  #subtitle {
+    font-size: 1.1rem; 
+  }
+  .logosidediv{
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .logosidediv{
+    padding-bottom: 40px;
+  }
+  .login-card {
+    width: 70%; 
+  }
+  .forget-password{
+    height: auto;
+    width: 80%;
+  }
+  .btns-div{
+    display: flex;
+    flex-direction: row;
+  }
+  .login-text {
+    font-size: 1.5rem;
+  }
+}
